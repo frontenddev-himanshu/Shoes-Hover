@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #FBE7C6;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shoes-section{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.shoes-images-1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(snikers.jpeg);
+    box-shadow: 10px 10px 15px #f5c674;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition:  0.3s ease-in-out ;
+}
+.shoes-images-2{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(formel.jpeg);
+    box-shadow: 10px 10px 15px #f5c674;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-size: cover;
+    transition:  0.3s ease-in-out;
+    
+}
+.shoes-images-3{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(sports.webp);
+    box-shadow: 10px 10px 15px #f5c674;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-size: cover;
+    transition:  0.3s ease-in-out;
+    
+}
+.shoes-images-4{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(casual.webp);
+    box-shadow: 10px 10px 15px #f5c674;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-size: cover;
+    transition:  0.3s ease-in-out;
+}
+.shoes-images-1:hover{
+    transform: translateY(-50px);
+}
+.shoes-images-2:hover{
+    transform: translatey(-50px);
+}
+.shoes-images-3:hover{
+    transform: translatey(-50px);
+}
+.shoes-images-4:hover{
+    transform: translatey(-50px);
+}
+
